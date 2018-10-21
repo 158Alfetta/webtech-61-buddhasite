@@ -163,6 +163,10 @@ li a:hover{
     background-position: center center;
   }
 
+p{
+    margin: 0px;
+}
+
 h1{
   position:absolute;
   top: 20%;
@@ -177,6 +181,7 @@ h1{
   position:absolute;
   top: 45%;
   right: 36%;
+  margin-top: 2%;
   font-size: 1.5vw;
   text-align: center;
   font-family: csprajad;
@@ -189,20 +194,52 @@ h1{
 
 h2{
   position: absolute;
-  top: 125%;
-  left: 12%;
   padding-right:1%;
   padding-left: 1%;
   border-bottom: 1px solid black;
   font-size: 3vw;
   text-align: left;
   font-family: thdan;
+
+}
+
+#whatis{
+    top: 125%;
+    left: 12%;
 }
 
 #descWh{
     position: absolute;
-    top: 120%;
+    top: 122%;
     left: 35.5%;
+    width: 31%;
+    height: 20%;
+    padding-right:1%;
+    padding-left: 1%;
+    font-size: 1.5vw;
+    text-align: left;
+    padding: 2%;
+    background-color: #e8a93f;
+    box-shadow: 12px 12px grey;
+    font-family: csprajad;
+    /* leaf shape (optional)
+    -moz-border-radius: 100px 0px;
+    -webkit-border-radius: 100px 0px;
+    border-radius: 100px 0px;*/
+}
+
+#howit{
+    position: absolute;
+    top: 170%;
+    left: 25%;
+}
+
+#descHow{
+    position: absolute;
+    top: 167%;
+    left: 50%;
+    width: 31%;
+    height: 20%;
     padding-right:1%;
     padding-left: 1%;
     font-size: 1.5vw;
