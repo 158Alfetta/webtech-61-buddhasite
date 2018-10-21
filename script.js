@@ -1,6 +1,11 @@
 //capture scroll any percentage
 
 $(document).ready(function(){
+    $("#sepLine").animate({
+        width: "40%"
+      }, 1500,function() {
+      });
+
     $(window).scroll(function(){
         var wintop = $(window).scrollTop(), docheight = 
     $(document).height(), winheight = $(window).height();
