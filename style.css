@@ -1,8 +1,8 @@
 html, body{
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
 }
 
 @font-face {
@@ -158,11 +158,11 @@ li a:hover{
     width: 100%;
     background-color: #fff493;
     background-image: linear-gradient(#fff493, white);
-/*    background-image: radial-gradient(white, #fff7ba, #fff493);
-    background-color: #fff493;*/
+    position: absolute;
     background-size: cover;
     background-repeat:no-repeat;
     background-position: center center;
+    z-index: -1;
   }
 
 p{
@@ -205,7 +205,7 @@ h1{
 }
 
 h2{
-    position: relative;
+    height: 10%;
     padding-right:1%;
     padding-left: 1%;
     border-bottom: 1px solid black;
@@ -215,52 +215,22 @@ h2{
 
 }
 
-.section2 #whatis{
-    top: 5%;
-    left: 12%;
-    width: 17%;
+.group{
+    display: flex;
+    position: relative;
+    width: auto;
 }
 
-.section2 #descWh{
-    position: absolute;
-    top: 7%;
-    left: 35.5%;
-    width: 31%;
-    height: 8%;
-    padding-right:1%;
-    padding-left: 1%;
+.des{
+    position: relative;
+    width: auto;
+    padding: 2%;
+    margin-left: 5%;
+    font-family: csprajad;
     font-size: 1.5vw;
     text-align: left;
-    padding: 2%;
     background-color: #e8a93f;
     box-shadow: 12px 12px grey;
-    font-family: csprajad;
-    /* leaf shape (optional)
-    -moz-border-radius: 100px 0px;
-    -webkit-border-radius: 100px 0px;
-    border-radius: 100px 0px;*/
-}
-
-.section2 #howit{
-    position: absolute;
-    top: 170%;
-    left: 25%;
-}
-
-.section2 #descHow{
-    position: absolute;
-    top: 167%;
-    left: 50%;
-    width: 31%;
-    height: 20%;
-    padding-right:1%;
-    padding-left: 1%;
-    font-size: 1.5vw;
-    text-align: left;
-    padding: 2%;
-    background-color: #e8a93f;
-    box-shadow: 12px 12px grey;
-    font-family: csprajad;
 }
 
 #president{
