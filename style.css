@@ -152,7 +152,7 @@ li a:hover{
   }
   
 #section2{
-    height: 200vh;
+    height: 250vh;
     width: 100%;
     background-color: #fff493;
     background-image: linear-gradient(#fff493, white);
@@ -255,6 +255,55 @@ h2{
     font-size: 1.5vw;
     text-align: left;
     padding: 2%;
+    background-color: #e8a93f;
+    box-shadow: 12px 12px grey;
+    font-family: csprajad;
+}
+
+#president{
+    top: 215%;
+    left: 23%;
+}
+
+#descPres{
+    position: absolute;
+    top: 212%;
+    left: 50%;
+    width: 26%;
+    height: 26%;
+    padding-right:1%;
+    padding-left: 1%;
+    font-size: 1.5vw;
+    text-align: left;
+    padding: 2%;
+    background-color: #e8a93f;
+    box-shadow: 12px 12px grey;
+    font-family: csprajad;
+}
+
+#presImg{
+    position: absolute;
+    top: 1%;
+    right: 7%;
+}
+
+#type{
+    position: absolute;
+    top: 260%;
+    left: 3%;
+}
+
+#descType{
+    position: absolute;
+    top: 260%;
+    left: 17.5%;
+    width: 28%;
+    height: 15%;
+    padding-right:2%;
+    padding-left: 2%;
+    padding-top: 2.5%;
+    font-size: 1.5vw;
+    text-align: left;
     background-color: #e8a93f;
     box-shadow: 12px 12px grey;
     font-family: csprajad;
