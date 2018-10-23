@@ -187,9 +187,19 @@ h1{
   font-family: csprajad;
 }
 
-#buddha2{
+.bdpichome{
     position: relative;
+    animation: fade 3s;
     top: 2%;
+}
+
+@keyframes fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
 }
 
 h2{
