@@ -59,7 +59,7 @@ li a:hover{
     color: black;
 }
 
-#first {
+#triAnA1{
     height: 0;
     width: 0;
     border-left: 36vh solid #f09d06;
@@ -70,10 +70,9 @@ li a:hover{
     position:absolute;
     top: 66.75%;
     right: 0;
-
 }
 
-#second {
+#triAnB1{
     height: 0;
     width: 0;
     border-left: 43vh solid #e8a93f;
@@ -84,11 +83,9 @@ li a:hover{
     position:absolute;
     top: 59.25%;
     right: 0;
-
-
 }
 
-#third {
+#triAnC1{
     height: 0;
     width: 0;
     border-left: 50vh solid #99460e;
@@ -101,7 +98,7 @@ li a:hover{
     right: 0;
 }
 
-#first3 {
+#triAnA2{
     height: 0;
     width: 0;
     border-left: 36vh solid #f09d06;
@@ -114,7 +111,7 @@ li a:hover{
     left: 0;
 }
 
-#second3 {
+#triAnB2{
     height: 0;
     width: 0;
     border-left: 43vh solid #e8a93f;
@@ -127,7 +124,7 @@ li a:hover{
     left: 0;
 }
 
-#third3 {
+#triAnC2{
     height: 0;
     width: 0;
     border-left: 50vh solid #99460e;
@@ -139,6 +136,40 @@ li a:hover{
     top: 152.25%;
     left: 0;
 }
+
+#triAnA3{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-bottom: 36vh solid transparent;
+    border-left: 36vh solid #f09d06;
+    transform: rotate(180deg);
+    bottom: 0;
+    right:0;
+}
+
+#triAnB3{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-bottom: 43vh solid transparent;
+    border-left: 43vh solid #e8a93f;
+    transform: rotate(180deg);
+    bottom: 0;
+    right:0;
+}
+
+#triAnC3{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-bottom: 50vh solid transparent;
+    border-left: 50vh solid #99460e;
+    transform: rotate(180deg);
+    bottom: 0;
+    right:0;
+}
+
 
 .section1{
     margin: 0;
@@ -218,13 +249,12 @@ h2{
 .group{
     display: flex;
     position: relative;
-    width: auto;
 }
 
 .des{
     position: relative;
     width: auto;
-    padding: 2%;
+    padding: 3%;
     margin-left: 5%;
     font-family: csprajad;
     font-size: 1.5vw;
@@ -233,25 +263,36 @@ h2{
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
 }
 
-#president{
-    top: 215%;
-    left: 23%;
+#descHow{
+    width: 50%;
+    padding: 4%;
+}
+
+#g1{
+    max-width: 70%;
+}
+
+#g2{
+    max-width: 70%;
+}
+
+
+#g3{
+    width: 60%;
+}
+
+#g4{
+    max-width: 70%;
+}
+
+#g6{
+    max-width: 70%;
 }
 
 #descPres{
-    position: absolute;
-    top: 212%;
-    left: 50%;
-    width: 26%;
-    height: 26%;
-    padding-right:1%;
-    padding-left: 1%;
-    font-size: 1.5vw;
-    text-align: left;
-    padding: 2%;
-    background-color: #e8a93f;
-    box-shadow: 12px 12px grey;
-    font-family: csprajad;
+    width: 45%;
+    padding: 5%;
+    padding-bottom: 12.5%;
 }
 
 #presImg{
@@ -260,24 +301,27 @@ h2{
     right: 7%;
 }
 
-#type{
-    position: absolute;
-    top: 260%;
-    left: 3%;
+#descType{
+    padding: 5%;
 }
 
-#descType{
+#g5{
+    width: 90%;
+}
+
+#descLogo{
+    padding-right: 25%;
+    padding-bottom: 5%;
+}
+
+#flagImg{
     position: absolute;
-    top: 260%;
-    left: 17.5%;
-    width: 28%;
-    height: 15%;
-    padding-right:2%;
-    padding-left: 2%;
-    padding-top: 2.5%;
-    font-size: 1.5vw;
-    text-align: left;
-    background-color: #e8a93f;
-    box-shadow: 12px 12px grey;
-    font-family: csprajad;
+    top: 7%;
+    right: 2%;
+    padding: 2%;
+}
+
+
+#descPeople{
+    padding: 4%;
 }
