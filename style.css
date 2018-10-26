@@ -1,0 +1,327 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+@font-face {
+    font-family: 'csprajad';
+    src: url('fonts/csprajad-webfont.eot');
+    src: url('fonts/csprajad-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/csprajad-webfont.woff2') format('woff2'),
+         url('fonts/csprajad-webfont.woff') format('woff'),
+         url('fonts/csprajad-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'thdan';
+    src: url('fonts/th_dan_vi_vek_bold_ver_1.03-webfont.eot');
+    src: url('fonts/th_dan_vi_vek_bold_ver_1.03-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/th_dan_vi_vek_bold_ver_1.03-webfont.woff2') format('woff2'),
+         url('fonts/th_dan_vi_vek_bold_ver_1.03-webfont.woff') format('woff'),
+         url('fonts/th_dan_vi_vek_bold_ver_1.03-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.navbar ul {
+    position:fixed;
+    z-index:1;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    background-image: linear-gradient(to right, orange 0%,#99460e);
+    box-shadow: 0 2px 10px rgba(5, 5, 5, 0.33);
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    transition: .67s ease;
+    background: #fff6a7;
+    color: black;
+}
+
+#triAnA1{
+    height: 0;
+    width: 0;
+    border-left: 36vh solid #f09d06;
+    border-right: 36vh solid transparent;
+    border-bottom: 36vh solid transparent;
+    border-top: 36vh solid transparent;
+    transform: rotate(180deg);
+    position:absolute;
+    top: 66.75%;
+    right: 0;
+}
+
+#triAnB1{
+    height: 0;
+    width: 0;
+    border-left: 43vh solid #e8a93f;
+    border-right: 43vh solid transparent;
+    border-bottom: 43vh solid transparent;
+    border-top: 43vh solid transparent;
+    transform: rotate(180deg);
+    position:absolute;
+    top: 59.25%;
+    right: 0;
+}
+
+#triAnC1{
+    height: 0;
+    width: 0;
+    border-left: 50vh solid #99460e;
+    border-right: 50vh solid transparent;
+    border-bottom: 50vh solid transparent;
+    border-top: 50vh solid transparent;
+    transform: rotate(180deg);
+    position:absolute;
+    top: 52.25%;
+    right: 0;
+}
+
+#triAnA2{
+    height: 0;
+    width: 0;
+    border-left: 36vh solid #f09d06;
+    border-right: 36vh solid transparent;
+    border-bottom: 36vh solid transparent;
+    border-top: 36vh solid transparent;
+    transform: rotate(0deg);
+    position: absolute;
+    top: 166.75%;
+    left: 0;
+}
+
+#triAnB2{
+    height: 0;
+    width: 0;
+    border-left: 43vh solid #e8a93f;
+    border-right: 43vh solid transparent;
+    border-bottom: 43vh solid transparent;
+    border-top: 43vh solid transparent;
+    transform: rotate(0deg);
+    position:absolute;
+    top: 159.75%;
+    left: 0;
+}
+
+#triAnC2{
+    height: 0;
+    width: 0;
+    border-left: 50vh solid #99460e;
+    border-right: 50vh solid transparent;
+    border-bottom: 50vh solid transparent;
+    border-top: 50vh solid transparent;
+    transform: rotate(0deg);
+    position:absolute;
+    top: 152.25%;
+    left: 0;
+}
+
+#triAnA3{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-bottom: 36vh solid transparent;
+    border-left: 36vh solid #f09d06;
+    transform: rotate(180deg);
+    bottom: 0;
+    right:0;
+}
+
+#triAnB3{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-bottom: 43vh solid transparent;
+    border-left: 43vh solid #e8a93f;
+    transform: rotate(180deg);
+    bottom: 0;
+    right:0;
+}
+
+#triAnC3{
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-bottom: 50vh solid transparent;
+    border-left: 50vh solid #99460e;
+    transform: rotate(180deg);
+    bottom: 0;
+    right:0;
+}
+
+
+.section1{
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    left: 0;
+    background-image: radial-gradient(white, #fff7ba, #fff493 60%);
+    background-color: #fff493;
+    /*background-size: cover;*/
+    background-repeat:no-repeat;
+    /*background-position: center center;*/
+  }
+  
+.section2{
+    height: 250vh;
+    width: 100%;
+    background-color: #fff493;
+    background-image: linear-gradient(#fff493, white);
+    position: absolute;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center center;
+    z-index: -1;
+  }
+
+p{
+    margin: 0px;
+}
+
+h1{
+  position:absolute;
+  top: 20%;
+  right: 28%;
+  /* border-bottom: 1px solid black; */
+  font-size: 5.5vw;
+  text-align: center;
+  font-family: thdan;
+}
+
+#desc{
+  position:absolute;
+  top: 45%;
+  right: 36%;
+  margin-top: 2%;
+  font-size: 1.5vw;
+  text-align: center;
+  font-family: csprajad;
+}
+
+.bdpichome{
+    position: relative;
+    animation: fade 3s;
+    top: 2%;
+}
+
+@keyframes fade{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+h2{
+    height: 10%;
+    padding-right:1%;
+    padding-left: 1%;
+    border-bottom: 1px solid black;
+    font-size: 3vw;
+    text-align: left;
+    font-family: thdan;
+
+}
+
+.group{
+    display: flex;
+    position: relative;
+}
+
+.des{
+    position: relative;
+    width: auto;
+    padding: 3%;
+    margin-left: 5%;
+    font-family: csprajad;
+    font-size: 1.5vw;
+    text-align: left;
+    background-color: #e8a93f;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+}
+
+#descHow{
+    width: 50%;
+    padding: 4%;
+}
+
+#g1{
+    max-width: 70%;
+}
+
+#g2{
+    max-width: 70%;
+}
+
+
+#g3{
+    width: 60%;
+}
+
+#g4{
+    max-width: 70%;
+}
+
+#g6{
+    max-width: 70%;
+}
+
+#descPres{
+    width: 45%;
+    padding: 5%;
+    padding-bottom: 12.5%;
+}
+
+#presImg{
+    position: absolute;
+    top: 1%;
+    right: 7%;
+}
+
+#descType{
+    padding: 5%;
+}
+
+#g5{
+    width: 90%;
+}
+
+#descLogo{
+    padding-right: 25%;
+    padding-bottom: 5%;
+}
+
+#flagImg{
+    position: absolute;
+    top: 7%;
+    right: 2%;
+    padding: 2%;
+}
+
+
+#descPeople{
+    padding: 4%;
+}
