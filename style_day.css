@@ -1,0 +1,96 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    z-index: 10;
+    position: fixed;
+    height: 8vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu{
+    display: flex;
+    width: 100vw;
+    margin: 0;
+    background-image: linear-gradient(to right, orange 0%,#99460e);
+    box-shadow: 0 2px 10px rgba(5, 5, 5, 0.33);
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    padding: 0 1vw;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li a {
+    height: 8vh;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover{
+    transition: .667s ease;
+    background: #fff6a7;
+    color: black;
+}
+
+
+#section1{
+    background-image: linear-gradient(#fff493, white);
+    height: 150vh;
+    margin: 0;
+    padding: 0;
+}
+
+#title{
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    margin: 3%; 
+    font-size: 4.5vw;
+    text-align: center;
+    font-family: thdan;
+    text-align: left;
+    line-height: 92.5%;
+}
+
+@font-face {
+    font-family: 'csprajad';
+    src: url('fonts/csprajad-webfont.eot');
+    src: url('fonts/csprajad-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/csprajad-webfont.woff2') format('woff2'),
+    url('fonts/csprajad-webfont.woff') format('woff'),
+    url('fonts/csprajad-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'thdan';
+    src: url('fonts/th_dan_vi_vek_bold_ver_1.03-webfont.eot');
+    src: url('fonts/th_dan_vi_vek_bold_ver_1.03-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/th_dan_vi_vek_bold_ver_1.03-webfont.woff2') format('woff2'),
+    url('fonts/th_dan_vi_vek_bold_ver_1.03-webfont.woff') format('woff'),
+    url('fonts/th_dan_vi_vek_bold_ver_1.03-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#box{
+    width: 90%;
+    height: 150vh;
+    position: absolute;
+    top: 45%;
+    margin: 5%;
+    border: 0.5vw solid #e8a93f;
+    background-color: white;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
+}
