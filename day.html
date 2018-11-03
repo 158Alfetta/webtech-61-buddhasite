@@ -29,10 +29,35 @@
     <p id=title> วันสำคัญและปฏิทิน <br> &nbsp; ทางพระพุทธศาสนา</p>
     <div id=section1>
         <div id=box>
-            <button onclick="myFunction()">Click me</button>
-            <div id="calender"></div>
+            <div class="table">
+            <div class="card">
+                <div class="card-header" id="monthAndYear"></div>
+                <table id="calendar">
+                    <thead>
+                        <tr>
+                            <th>อาทิตย์</th>
+                            <th>จันทร์</th>
+                            <th>อังคาร</th>
+                            <th>พุธ</th>
+                            <th>พฤหัสบดี</th>
+                            <th>ศุกร์</th>
+                            <th>เสาร์</th>
+                        </tr>
+                    </thead>
+                    <tbody id="calendar-body">
+                        
+                    </tbody>
+                </table>
+            </div>
+            <div class="from-inline">
+                <button class="bn" onclick="previous()">Previous</button>
+                <button class="bn" onclick="next()">Next</button>
+            </div>
         </div>
     </div>
+    </div>
+
+    <iframe frameborder="0" height="500" scrolling="no" src="https://www.google.com/calendar/hosted/dmc.tv/embed?showTabs=0&amp;height=500&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=events%40dmc.tv&amp;color=%23B1440E&amp;ctz=Asia%2FBangkok" style="border-width: 0pt; width: 559px; height: 367px;" width="700"></iframe>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="script_day.js"></script>

@@ -86,7 +86,7 @@ li a:hover{
 
 #box{
     width: 90%;
-    height: 150vh;
+    height: 200vh;
     position: absolute;
     top: 45%;
     margin: 5%;
@@ -94,3 +94,33 @@ li a:hover{
     background-color: white;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
 }
+
+table, th, td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+th, td{
+    width: 7vw;
+    height: 8vh;
+}
+
+#monthAndYear{
+    height: 10%;
+    padding-right:1%;
+    font-size: 3vw;
+    font-family: thdan;
+}
+
+#calendar{
+    font-family: csprajad;
+    font-size: 1vw;
+}
+
+.table{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+.
