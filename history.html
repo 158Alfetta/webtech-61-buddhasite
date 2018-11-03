@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>พุทธประวัติ</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style_history.css">
+    <link rel="shortcut icon" type="image/png" href="favicons.png" />
+</head>
+
+<body>
+    <!-- _Navbar_ -->
+    <div class="navbar">
+        <div class="menu">
+            <ul style="display: flex; align-items: center;padding: 0;width: 100%;">
+                <li><a href="/webtech-61-buddhasite/index.html" class="item">หน้าแรก</a></li>
+                <li><a href="/webtech-61-buddhasite/history/index.html" class="item">พุทธประวัติ</a></li>
+                <li><a href="#thai" class="item">พุทธศาสนาในไทย</a></li>
+                <li><a href="#day" class="item">วันสำคัญทางศาสนาพุทธ</a></li>
+                <li><a href="#notice" class="item">หลักธรรม</a></li>
+                <div style="margin-left: auto; margin-right: 1%;">
+                    <li><a href="#about" class="item">เกี่ยวกับเรา</a></li>
+                </div>
+            </ul>
+        </div>
+    </div>
+
+    <div class="history_background">
+        <h1>พุทธประวัติ</h1>
+        <div id="overlay" onclick="off()">
+            <div id="textTitle"></div>
+            <img id="testimg" src="born.jpg">
+            <div id="data"></div>
+        </div>
+        <div class="pic_box">
+            <img src="logo/born.jpg" id="p1" class="pic_set" style="margin-bottom: 20px" onclick="on1()">
+            <img src="logo/young.jpg" id="p2" class="pic_set" style="margin-bottom: 20px" onclick="on2()">
+            <img src="logo/ordain.jpg" id="p3" class="pic_set" style="margin-bottom: 20px" onclick="on3()">
+            <img src="logo/suffer.jpg" id="p4" style="margin-bottom: 20px" onclick="on4()">
+        </div>
+        <div class="pic_box">
+            <img src="logo/enlightment.jpg" id="p5" class="pic_set" onclick="on5()">
+            <img src="logo/proclaim.jpg" id="p6" class="pic_set" onclick="on6()">
+            <img src="logo/nirvana.jpg" id="p7" class="pic_set" onclick="on7()">
+        </div>
+    </div>
+
+    <script>
+        function on1() {
+            document.getElementById("overlay").style.display = "block";
+            document.getElementById("overlay").style.zIndex = "10";
+            document.getElementById("textTitle").innerHTML = "ประสูติ";
+            document.getElementById("testimg").src = "born.jpg"
+            document.getElementById("data").innerHTML = "ก่อนพุทธศักราช ๘๐ ปี พระนางสิริมายา ราชธิดาของกษัตริย์โกลิยวงค์ผู้ครองกรุงเทวทหะ พระมเหสีของพระเจ้าสุทโธทนะ กษัตริย์ผู้ครองกรุงกบิลพัสดุ์ ทรงประสูติพระโอรส เมื่อวันศุกร์ ขึ้น ๑๕ ค่ำ เดือน ๖ ปีจอ ณ สวนลุมพินีวัน ซึ่งตั้งอยู่ระหว่างกรุงกบิลพัสดุ์กับกรุงเทวทหะ (ปัจจุบัน คือ ตำบลรุมมินเด ประเทศเนปาล) ทันทีที่ประสูติ ทรงดำเนินด้วยพระบาท 7 ก้าว มีดอกบัวผุดรองรับ ทรงเปล่งพระวาจาว่า \"เราเป็นเลิศที่สุดในโลก ประเสริฐที่สุดในโลก การเกิดครั้งนี้เป็นครั้งสุดท้ายของเรา\"";
+        }
+
+        function on2() {
+            document.getElementById("overlay").style.display = "block";
+            document.getElementById("overlay").style.zIndex = "10";
+            document.getElementById("textTitle").innerHTML = "วัยเด็ก";
+            document.getElementById("testimg").src = "young.jpg"
+            document.getElementById("data").innerHTML = "<li>หลังประสูติได้ 7 วัน พระนางสิริมหามายาสิ้นพระชนม์ จึงทรงอยู่ในความดูแลของพระนางปชาบดีโคตมี ซึ่งเป็นพระกนิษฐาของพระนางสิริมหามายา </li><li>ได้ศึกษาเล่าเรียนจนจบระดับสูงของการศึกษาทางโลกในสมัยนั้น ค์อ ศิลปศาสตร์ถึง 18 ศาสตร์ ในสำนักครูวิศวามิตร </li><li>พระบิดาไม่ประสงค์จะให้เจ้าชายสิทธัตถะเป็นศาสดาเอก จึงพยายามให้สิทธัตถะพบแต่ความสุขทางโลก เช่น สร้างปราสาท 3 ฤดู และเมื่ออายุ 16 ปี ได้ให้เจ้าชายสิทธัตถะอภิเษกกับนางพิมพาหรือยโสธรา ผู้เป็นพระธิดาของพระเจ้ากรุงเทวทหะซึ่งเป็นพระญาติฝ่ายพระมารดา </li><li>เมื่อมีพระชนมายุ 29 ปี พระนางพิมพาก็ให้ประสูติ ราหุล (บ่วง)</li>";
+
+        }
+
+        function on3() {
+            document.getElementById("overlay").style.display = "block";
+            document.getElementById("overlay").style.zIndex = "10";
+            document.getElementById("textTitle").innerHTML = "เสด็จออกผนวช";
+            document.getElementById("testimg").src = "ordain.jpg"
+            document.getElementById("data").innerHTML = "<li>เมื่อทอดพระเนตรเห็นคนแก่ คนเจ็บ คนตาย และสมณตามลำดับ จึงทรงคิดว่าชีวิตของทุกคนต้องตกอยู่ในสภาพเช่นนั้น ไม่มีใครหลีกเลี่ยงได้</li><li>พระองค์จึงตัดสินใจเสด็จออกบวช โดยพระองค์ทรงม้ากัณฐกะ สู่แม่น้ำอโนมา ณ ที่นี้พระองค์ทรงอธิษฐานเพศเป็นบรรพชิตและมอบหมายเครื่องประดับและม้ากัณฐกะให้นายฉันนะนำกลับไปยังกรุงกบิลพัสดุ์</li>";
+        }
+
+        function on4() {
+            document.getElementById("overlay").style.display = "block";
+            document.getElementById("overlay").style.zIndex = "10";
+            document.getElementById("textTitle").innerHTML = "บำเพ็ญทุกรกิริยา";
+            document.getElementById("testimg").src = "suffer.jpg"
+            document.getElementById("data").innerHTML = "เมื่อพระองค์ทรงเปลี่ยนพระทัยที่จะคิดค้นคว้าแสวงหาความรู้ด้วยพระองค์เองแทนที่จะทรงเล่าเรียนในสำนักอาจารย์แล้วพระองค์เริ่มด้วยการทรมานพระวรกายตามวิธีการของโยคี เรียกว่า การบำเพ็ญทุกรกิริยา บริเวณแม่น้ำ เนรัญชรานั้น พระมหาบุรุษได้ทรงบำเพ็ญทุกรกิริยาเป็นเวลา ๖ ปี พระองค์ก็ยังคงมิได้ค้นหาทางหลุดพ้นจากทุกข์ได้ พระองค์ทรงเลิกการบำเพ็ญทุกรกิริยา แล้วกลับมาเสวยพระกระยาหารเพื่อบำรุงพระวรกายให้แข็งแรง ในขณะที่พระมหาบุรุษได้ทรงบำเพ็ญทุกรกิริยานั้น ได้มีปัญจวัคคีย์มาคอยปรนนิบัติรับใช้ด้วยความหวังว่า พระมหาบุรุษได้ตรัสรู้แล้วพวกตนจะได้รับการถ่ายทอดบ้าง และเมื่อพระมหาบุรุษล้มเลิกการบำเพ็ญทุกรกิริยา ปัญจวัคคีย์ก็ได้ชวนกันละทิ้งมหาบุรุษไป พระองค์ได้ทรงตั้งพระสติและเดินทางกายกลาง คือ การปฏิบัติในความพอเหมาะพอควร";
+        }
+
+        function on5() {
+            document.getElementById("overlay").style.display = "block";
+            document.getElementById("overlay").style.zIndex = "10";
+            document.getElementById("textTitle").innerHTML = "ตรัสรู้";
+            document.getElementById("testimg").src = "enlightment.jpg"
+            document.getElementById("data").innerHTML = "ตอนเช้าวันเพ็ญเดือน ๖ ปีระกา ก่อนพุทธศักราช ๔๕ นางสุชาดาได้นำข้าวมธุปายาสเพื่อไปบวงสรวงเทวดา ครั้นเห็นพระมหาบุรุษประทับที่โคนต้นไทรด้วยอาการสงบ นางคิดว่าเป็นเทวดา จึงถวายทอดข้าวมธุปายาสแล้วเสด็จไปริมฝั่งแม่น้ำเนรัญชรา ตอนเย็นวันนั้นเองพระองค์ได้กลับมายังต้นโพธิ์ที่ประทับ พบคนหาบหญ้าชื่อโสตถิยะ คนหาบหญ้าได้ถวายหญ้าให้พระองค์ปูลาด ณ ใต้ต้นโพธิ์ แล้วขึ้นประทับหันพระพักตร์ไปทางทิศตะวันออก และได้ตั้งจิตอธิษฐานว่า แม้เลือดในกายของเราจะเหือดแห้งไปเหลือแต่หนัง เอ็น กระดูก ก็ตาม ถ้าไม่พบธรรมแล้วจะไม่ยอมหยุดความเพียรเป็นอันขาด เมื่อทรงตั้งจิตอธิษฐานแล้ว พระองค์ก็ทรงสำรวมจิตให้สงบแน่วแน่และเริ่มบำเพ็ญเพียรทางจิต และในที่สุดก็ทรงบรรลุความสำเร็จ พระองค์ก็ตรัสรู้เป็นพระสัมมาสัมพุทธเจ้า เมื่อพระชนมายุ 35 พรรษา";
+        }
+
+        function on6() {
+            document.getElementById("overlay").style.display = "block";
+            document.getElementById("overlay").style.zIndex = "10";
+            document.getElementById("textTitle").innerHTML = "ประกาศพระศาสนา";
+            document.getElementById("testimg").src = "proclaim.jpg"
+            document.getElementById("data").innerHTML = "การแสดงปฐมเทศนา วันขึ้น ๑๔ ค่ำ เดือนอาสาฬหะ (เดือน ๘) ณ ป่าอิสิปตนมฤคทายวัน พระพุทธเจ้าเสด็จไปหาปัญจวัคคีย์  พระองค์ได้ทรงแสดงธรรมในวันขึ้น ๑๕ ค่ำ เดือน ๘ เรียกว่า ธรรมจักกัปวัตนสูตร ในขณะที่ทรงแสดงธรรมนั้น ท่านโกณฑัญญะได้ธรรมจักษุ คือ พระโสดาบัน ได้ทูลขออุปสมบทในพระธรรมวินัยของสัมมสัมพุทธเจ้า เรียกการบวชครั้งนี้ว่า \"เอหิภิกขุอุปสัมปทา\" พระอัญญาโกณฑัญญะ จึงเป็นพระภิกษุรูปแรกในพุทธศาสนา<br>เมื่อพระองค์ มีสาวกเป็นพระอรหันต์ ๖๐ องค์ ทรงพิจารณาเห็นสมควรว่าจะออกไปประกาศศาสนา ให้แพร่หลายได้แล้ว พระองค์จึงเรียกประชุมสาวกทั้งหมด พระองค์ทรงส่งสาวกออกประกาศศาสนาพร้อมกันทีเดียว ๖๐ องค์ ไป ๖๐ สาย คือ ไปกันทุกสารทิศทีเดียว แม้พระองค์เองก็ไปเหมือนกัน";
+        }
+
+        function on7() {
+            document.getElementById("overlay").style.display = "block";
+            document.getElementById("overlay").style.zIndex = "10";
+            document.getElementById("textTitle").innerHTML = "ปรินิพพาน";
+            document.getElementById("testimg").src = "nirvana.jpg"
+            document.getElementById("data").innerHTML = "การเสด็จปรินิพพาน ซึ่งวันนั้นตรงกับวันเพ็ญเดือนวิสาขะ (เดือน ๖) ในยามสุดท้ายของวันนั้น ณ ป่าไม้สาละ(สาลวันอุทยาน) ของกษัตริย์มัลละ กรุงกุสินารา พระองค์ได้ประทับใต้ต้นสาละคู่ หลังจากตรัสโอวาทให้แก่พระอริยสงฆ์แล้ว พระองค์มิได้ตรัสอะไรอีกแล้วเสด็จปรินิพพาน ด้วยพระอาการสงบ พระชนมายุ 80 ปี ทรงเทศนาสั่งสอนมาเป็นเวลา 45 ปี ซึ่งเป็นที่น่าอัศจรรย์นักที่วันประสูติ วันตรัสรู้ และวันปรินิพพานของพระพุทธเจ้าตรงกัน คือ วันเพ็ญเดือน ๖<br><b>\"ดูก่อนภิกษุทั้งหลาย เราขอบอกเธอทั้งหลาย สังขารทั้งปวงมีความเสื่อมสลายไปเป็นธรรมดา พวกเธอจึงทำประโยชน์ตนเอง และประโยชน์ของผู้อื่นให้สมบูรณ์ด้วยความไม่ประมาทเถิด\"<br>(อปปมาเทน สมปาเทต)</b > ";
+        }
+
+        function off() {
+            document.getElementById("overlay").style.display = "none";
+        }
+    </script>
+
+</body>
+
+</html>
