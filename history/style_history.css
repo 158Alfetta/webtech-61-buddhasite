@@ -69,13 +69,15 @@ li a:hover {
 
 #title{
   font-family: thdan;
-  font-size: 3.33vw;
-  margin-top: 10vh;
+  font-size: 3.6vw;
+  margin-top: 9vh;
   margin-bottom: 1vh;
+  opacity: 0;
 
 }
 
 .box{
+  opacity: 0;
   width: 100%;
   margin: 0 0 2% 0;
   padding: 0;
@@ -105,7 +107,7 @@ li a:hover {
   width: 15vw;
   height: 35vh;
   border-radius: 30px;
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(0, 0, 0, 0.67);
   opacity: 0;
   display: flex;
   text-align: center;

@@ -64,22 +64,14 @@ li a:hover{
 
 @font-face {
     font-family: 'csprajad';
-    src: url('fonts/csprajad-webfont.eot');
-    src: url('fonts/csprajad-webfont.eot?#iefix') format('embedded-opentype'),
-    url('fonts/csprajad-webfont.woff2') format('woff2'),
-    url('fonts/csprajad-webfont.woff') format('woff'),
-    url('fonts/csprajad-webfont.ttf') format('truetype');
+    src: url('../fonts/csprajad-webfont.ttf');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'thdan';
-    src: url('fonts/th_dan_vi_vek_bold_ver_1.03-webfont.eot');
-    src: url('fonts/th_dan_vi_vek_bold_ver_1.03-webfont.eot?#iefix') format('embedded-opentype'),
-    url('fonts/th_dan_vi_vek_bold_ver_1.03-webfont.woff2') format('woff2'),
-    url('fonts/th_dan_vi_vek_bold_ver_1.03-webfont.woff') format('woff'),
-    url('fonts/th_dan_vi_vek_bold_ver_1.03-webfont.ttf') format('truetype');
+    src: url('../fonts/th_dan_vi_vek_bold_ver_1.03-webfont.ttf');
     font-weight: normal;
     font-style: normal;
 }

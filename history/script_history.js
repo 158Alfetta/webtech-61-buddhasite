@@ -1,10 +1,21 @@
 $( document ).ready(function() {
-    $(".info").addClass("onload");
-    setTimeout(
-        function() 
-        {
-            $(".info").removeClass("onload");
-        }, 1200);
+    $("#title").animate({
+        opacity: 1,
+      }, 1200, function() {
+      });
+
+      $(".box").animate({
+        opacity: 1,
+      }, 1000, function() {
+          // Animation complete.
+          $(".info").addClass("onload");
+          setTimeout(
+              function() 
+              {
+                  $(".info").removeClass("onload");
+              }, 1200);
+      });
+    
 });
 
 function on1() {
