@@ -1,0 +1,103 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "thdan";
+    src: url("../fonts/th_dan_vi_vek_bold_ver_1.03-webfont.ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "csprajad";
+    src: url("../fonts/csprajad-webfont.ttf");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.navbar{
+    display: flex;
+    z-index: 10;
+    position: fixed;
+    height: 8vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.menu{
+    display: flex;
+    width: 100vw;
+    margin: 0;
+    background-image: linear-gradient(to right, orange 0%,#99460e);
+    box-shadow: 0 2px 10px rgba(5, 5, 5, 0.33);
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    padding: 0 1vw;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li a {
+    height: 8vh;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+li a:hover{
+    transition: .667s ease;
+    background: #fff6a7;
+    color: black;
+}
+
+.section1{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: radial-gradient(white, #fff7ba, #fff493 60%);
+}
+
+#title{
+    font-family: thdan;
+    font-size: 3.6vw;
+    margin-top: 15vh;
+}
+
+#text{
+    width: 100%;
+    height: 100%;
+    font-family: csprajad;
+    font-size: 2.25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mess{
+    margin-top: 15vh;
+}
+
+#bg{
+    margin: 7% 0 0 0;
+    height: 80%;
+    overflow: hidden;
+    position: absolute;
+}
+
+#jakr{
+    opacity: 0.03;
+    height: 100%;
+    animation: mhun 100s infinite linear;
+}
+
+@keyframes mhun{
+    100%{ transform: rotate(360deg);}
+}
