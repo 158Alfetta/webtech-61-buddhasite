@@ -83,6 +83,7 @@ li a:hover{
 
 #mess{
     margin-top: 15vh;
+    opacity: 0;
 }
 
 #bg{
