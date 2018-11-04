@@ -158,10 +158,12 @@ li a:hover {
 .animate{
   transition: all .67s;
   transform: scale(1.0);
+  opacity: 1;;
 }
 
 .scale{
   transform: scale(0);
+  opacity: 0;
 }
 
 #textTitle{

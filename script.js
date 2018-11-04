@@ -3,7 +3,7 @@
 $(document).ready(function(){
     $("#sec1_sepLine").animate({
         width: "100%"
-      }, 1200,function() {
+      }, 1500,function() {
       });
 
       $(".data").animate({
