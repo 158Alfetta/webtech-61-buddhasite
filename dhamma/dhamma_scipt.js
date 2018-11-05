@@ -5,13 +5,27 @@ var list = ["ไตรลักษณ์- ลักษณะทั่วไป�
 
 var i = -1;
 
-$(document).ready(show());
+$(document).ready(function(){
+    for(n = 0; n < list.length; n++){
+        var $newdiv1 = $( "<div class='dot' id="+'d'+n+"></div>" );
+        $(".bar").append($newdiv1);
+    }
+    show();
+    $(".dot").click(function(){
+        $("#d"+i).removeClass("active");
+        i = $(this).attr('id')[1];
+        $("#d"+i).addClass("active");
+        $("#mess").html(list[i]);
+        $("#mess").css("opacity", "1");
+    });
+});
 
 function show() {
     i++;
-    if (i == list.length) {
+    if (i >= list.length) {
         i = 0;
     }
+    $("#d"+i).addClass("active");
     $("#mess").html(list[i]);
     $("#mess").animate({
         opacity: 1,
@@ -25,7 +39,8 @@ function fout() {
         $("#mess").animate({
             opacity: 0,
         }, 1000, function () {
+            $("#d"+i).removeClass("active");
             show();
         });
-    }, 3000);
+    }, 2000);
 }
