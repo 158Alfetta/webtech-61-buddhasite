@@ -140,7 +140,7 @@ li a:hover {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.67);
+  background: rgba(30, 30, 30, 0.81);
   z-index: -1;
   
 }
