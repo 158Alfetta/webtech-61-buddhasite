@@ -190,8 +190,8 @@ li a:hover {
 }
 
 img {
-  width: 15vh;
-  height: auto;
+  width: auto;
+  height: 150px;
   border-radius: 15%;
 }
 
