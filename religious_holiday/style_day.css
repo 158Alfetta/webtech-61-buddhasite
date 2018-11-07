@@ -80,7 +80,7 @@ li a:hover{
     display: flex;
     flex-wrap: wrap;
     width: 90%;
-    height: 220vh;
+    height: 180vh;
     position: absolute;
     top: 45%;
     margin: 5%;
@@ -150,8 +150,8 @@ h2{
 
 #descDay{
     position: absolute;
-    top: 14%;
-    left: 41%;
+    top: 16%;
+    left: 40.75%;
     font-size: 1.33vw;
     font-family: csprajad;
     margin: 2%;
@@ -172,6 +172,7 @@ h2{
     color: white;
     padding: 1%;
     margin: 1%;
+    cursor: pointer;
     text-align: center;
     border-radius: 8px;
     background-color: #F69D01;
@@ -190,6 +191,10 @@ h2{
 
 .ld:hover::after {
   opacity: 1;
+}
+
+.ld:active{
+    transform: translateY(6px);
 }
 
 
