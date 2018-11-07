@@ -118,8 +118,40 @@ h2{
     margin: 3%;
 }
 
+#howto{
+    margin-top: 7%;
+}
+
 #descHowto{
     position: relative;
+    font-size: 1.33vw;
+    font-family: csprajad;
+    margin: 2%;
+    margin-top: 4%;
+    padding: 1.2%;
+    border-radius:20px 20px 20px 20px;
+    -moz-border-radius:20px 20px 20px 20px;
+    -webkit-border-radius:20px 20px 20px 20px;
+    background: #fff493;
+    right: 0.2%;
+    width: 45vw;
+    height: 17vh;
+    border: 0.2vw solid #99460e;
+
+}
+
+#daylist{
+    position: absolute;
+    top: 15%;
+    padding-left: 5%;
+    font-size: 3.5vw;
+
+}
+
+#descDay{
+    position: absolute;
+    top: 14%;
+    left: 41%;
     font-size: 1.33vw;
     font-family: csprajad;
     margin: 2%;
@@ -131,38 +163,48 @@ h2{
     right: 0.2%;
     width: 45vw;
     height: 17vh;
-
+    border: 0.2vw solid #99460e;
 }
-
-#daylist{
-    position: absolute;
-    top: 27%;
-    padding-left: 5%;
-    font-size: 4vw;
-
-}
-
 
 .ld{
-    font-size: 1.33vw;
+    font-size: 1.73vw;
     font-family: csprajad;
-    border: 0.2vw solid #99460e;
-    padding: 2%;
-    margin: 2%;
+    color: white;
+    padding: 1%;
+    margin: 1%;
     text-align: center;
-    border-radius:20px 20px 20px 20px;
-    -moz-border-radius:20px 20px 20px 20px;
-    -webkit-border-radius:20px 20px 20px 20px;
-    background-color: #fff493;
-}
+    border-radius: 8px;
+    background-color: #F69D01;
+    height: 1%;
+    width: 20%;
+    transition: box-shadow 0.3s ease-in-out;
 
-#listofday{
-    position: absolute;
-    right: 3.5%;
-    margin: 2%;
-    top: 15%;
 }
 
 .ld:hover{
-    
+    box-shadow: 0 10px 20px rgba(255,208,0,10);
+    transition: .667s ease;
+    background: #fff6a7;
+    color: black;
+}
+
+.ld:hover::after {
+  opacity: 1;
+}
+
+
+#listofday{
+    position: absolute;
+    display: flex;
+    width: 90%;
+    margin: 5%;
+    top: 32.5%;
+}
+
+
+#daymenu{
+    position: absolute;
+    top: 30%;
+    margin-left: 40%;
+    margin-right: 40%;
 }
