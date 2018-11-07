@@ -15,6 +15,7 @@ $(document).ready(function(){
 
     var tmp = "-"
     $('.ld').click(function(){
+      $("#box").css("height", "180vh");
       if(tmp != "-"){
         $("#"+tmp).removeClass('clicked');
       }

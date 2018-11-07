@@ -44,10 +44,12 @@ li a:hover{
 
 
 #section1{
+    display: flex;
     background-image: linear-gradient(#fff493, white);
     height: 150vh;
     margin: 0;
     padding: 0;
+    align-items: center;
 }
 
 #title{
@@ -79,15 +81,18 @@ li a:hover{
 #box{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     width: 90%;
-    height: 180vh;
+    height: 100vh;
     position: absolute;
     top: 45%;
     margin: 5%;
     border: 0.5vw solid #99460e;
     background-color: #e8a93f;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.25);
-    background-image: radial-gradient(#fff493, #e8a93f 90%)
+    background-image: radial-gradient(#fff493, #e8a93f 90%);
+    transition: 1s ease;
 }
 
 table, th, td {
@@ -111,47 +116,53 @@ th, td{
 }
 
 h2{
-    height: 10%;
     padding-right:1%;
     font-size: 3vw;
     font-family: thdan;
     margin: 3%;
 }
 
-#howto{
-    margin-top: 7%;
+.miniBox{
+    display: flex;
+    flex-direction: column;
+}
+
+.head{
+    width: 30vw;
+    margin: 0;
+    padding: 0  !important;
+}
+
+.board{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dsc{
+    width: 45vw;
 }
 
 #descHowto{
-    position: relative;
     font-size: 1.33vw;
     font-family: csprajad;
     margin: 2%;
-    margin-top: 4%;
     padding: 1.2%;
     border-radius:20px 20px 20px 20px;
     -moz-border-radius:20px 20px 20px 20px;
     -webkit-border-radius:20px 20px 20px 20px;
     background: #fff493;
-    right: 0.2%;
-    width: 45vw;
-    height: 17vh;
     border: 0.2vw solid #99460e;
 
 }
 
 #daylist{
-    position: absolute;
-    top: 15%;
     padding-left: 5%;
     font-size: 3.5vw;
 
 }
 
 #descDay{
-    position: absolute;
-    top: 16%;
-    left: 40.75%;
     font-size: 1.33vw;
     font-family: csprajad;
     margin: 2%;
@@ -160,9 +171,6 @@ h2{
     -moz-border-radius:20px 20px 20px 20px;
     -webkit-border-radius:20px 20px 20px 20px;
     background: #fff493;
-    right: 0.2%;
-    width: 45vw;
-    height: 17vh;
     border: 0.2vw solid #99460e;
 }
 
@@ -199,17 +207,12 @@ h2{
 
 
 #listofday{
-    position: absolute;
     display: flex;
     width: 90%;
-    margin: 5%;
-    top: 32.5%;
 }
 
 
 #daymenu{
-    position: absolute;
-    top: 30%;
     margin-left: 40%;
     margin-right: 40%;
 }
@@ -223,9 +226,8 @@ h2{
     width: 78vw;
     height: 70vh;
     background: #fff493;
-    margin: 15% auto 0 auto;
     opacity: 0;
-    transition: 0.67s ease;
+    transition: 2.5s ease;
     font-family: csprajad;
     font-size: 1.5vw;
     padding: 2%;
