@@ -15,6 +15,13 @@ $( document ).ready(function() {
                   $(".info").removeClass("onload");
               }, 1200);
       });
+
+    $(window).scroll(function(){
+        var wintop = $(window).scrollTop(), docheight = 
+    $(document).height(), winheight = $(window).height();
+            var scrolled = (wintop/(docheight-winheight))*100;
+    $('.menu').css('background-image', ("linear-gradient(to right, orange "+scrolled+"%, #99460e)"));
+    });
     
 });
 
